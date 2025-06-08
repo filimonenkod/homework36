@@ -1,5 +1,11 @@
+import Todo from "./components/Todo";
+
 function App() {
-  return 'Hello';
+  return (
+    <div className="body">
+      <Todo />
+    </div>
+  );
 }
 
 export default App
