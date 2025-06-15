@@ -1,11 +1,11 @@
-import Todo from "./components/Todo";
+import Widget from "./components/Widget";
 
 function App() {
   return (
     <div className="body">
-      <Todo />
+      <Widget />
     </div>
   );
 }
 
-export default App
+export default App;
